@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Knowledge Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header nav {
+            margin-top: 1rem;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .contact-section {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .contact-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .contact-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            background-color: #0073e6;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="KnowledgeHub_Homepage.html">Home</a>
+            <a href="KnowledgeHub_About.html">About</a>
+            <a href="KnowledgeHub_Blog.html">Blog</a>
+            <a href="#resources">Resources</a>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us using the form below.</p>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Knowledge Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
